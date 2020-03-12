@@ -1,0 +1,20 @@
+
+body{
+    background-color: #c6c8ca;
+}
+h1{
+    color:blue;
+    font-family: Tahoma;
+    font-style: italic;
+    font-style: 16px;
+    text-align: center;
+    text-shadow:3px 3px 8px yellow;
+}
+header{
+    width:95wv;
+    /*border:thin solid darkblue;*/
+    border-radius:8px;
+    background-color: darkgrey;
+    box-shadow: 3px 3px 15px 5px #4e555b;
+    margin-top: 15px;
+    }
