@@ -1,6 +1,8 @@
 
 body{
     background-color: #c6c8ca;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
 }
 h1{
     color:blue;
@@ -16,27 +18,30 @@ header{
     border-radius:8px;
     background-color: darkgrey;
     box-shadow: 3px 3px 15px 5px #4e555b;
-    margin-top: 15px;
+    margin: 15px auto 10px auto;
+    text-align:center;
     }
 nav {
     display: block;
-    width: 90vw;
+    width: 800px;
     margin: 0 auto 30px auto;
-}
-ul {
-    list-style: none; /*убираем маркеры списка*/
-    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
-    padding-left: 0; /*убираем левый отступ, равный 40px*/
     text-align: center;
 }
-li{display:inline-block;}
-a {text-decoration: none; /*убираем подчеркивание текста ссылок*/
-    display: block;
+.one ul {
+    padding: 1em 0;
+    background: grey;
+}
+.one a {
     padding: 1em;
-    border-right: 1px solid #ADC0CE;
-    background: rgba(173, 192, 206, .3);
-    color: #29838C;}
-a:hover {background: #ADC0CE;}
+    background: #c6c8ca;
+    border-right: 1px solid #b19891;
+    color: #695753;
+    text-decoration: none;
+}
+.one a:hover {background: lightsteelblue;}
+.one li {
+    display: inline;
+}
 
 .flrow{
     display:flex;
@@ -67,6 +72,7 @@ footer{
     color:beige;
     box-shadow: 0 0 10px 10px bisque;
     border-radius: 10px;
+    margin:auto;
 }
 .art1{
     display:flex;
@@ -87,8 +93,11 @@ footer{
     margin: 5px;
 }
 
-ul{
-   list-style-type:circle;
-   list-style-position: outside;
-    text-align: left;
+ul.list{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+table td{
+    border: grey thin double;
 }
